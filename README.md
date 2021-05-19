@@ -1,2 +1,1 @@
-# site
-site de teste
+# Solução numérica do movimento oscilatório
