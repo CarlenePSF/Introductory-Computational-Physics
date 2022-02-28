@@ -36,7 +36,7 @@ x = random_integer(dict_constants['x0'], dict_constants['N'], dict_constants['L'
 y = random_integer(dict_constants['x0'], dict_constants['N'], dict_constants['L'])
 
 
-mpl.rc('text', usetex=False)
+mpl.rc('text', usetex=True)
 mpl.rc('font', family='serif', weight='normal', style='normal', size='12')
 
 fig, (ax1) = plt.subplots(1, 1)
