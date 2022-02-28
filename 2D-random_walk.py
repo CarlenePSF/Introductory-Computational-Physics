@@ -39,12 +39,6 @@ y = random_integer(dict_constants['x0'], dict_constants['N'], dict_constants['L'
 mpl.rc('text', usetex=False)
 mpl.rc('font', family='serif', weight='normal', style='normal', size='12')
 
-font = {
-    'family': 'serif',
-    'color': 'darkned',
-    'weight': 'normal',
-    'size': 8,
-    }
 fig, (ax1) = plt.subplots(1, 1)
 fig.suptitle('2D random walk')
 ax1.plot(x, y, '-')

@@ -1,8 +1,6 @@
 /**************************************
 * nome: decay.c
 * description: A radioactive decay
-* date: 08/12/2019
-* last update: 19/05/2021
 ***************************************/
 #include<stdlib.h>
 #include<math.h>
@@ -60,7 +58,6 @@ int store(nuclei, t) double *nuclei,*t;
 
 
 int main(){
-
     initialize(n_uranium, t,&tau,&dt);
     calculate(n_uranium,t,tau,dt);
     store(n_uranium, t);
